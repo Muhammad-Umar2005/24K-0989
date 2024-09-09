@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+int testinteger=30000000;
+printf("Number is%d",testinteger);
+return 0;
+}

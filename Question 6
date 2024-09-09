@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+int x2,x1,y2,y1,m,y,x;
+x1=5,y1=4;
+x2=3,y2=2;
+printf("The slope of two points is given by\n");
+printf("y2-y1/x2-x1\n");
+y=y2-y1;
+x=x2-x1;
+ m=y/x;
+ printf("m:%d\n",m);
+ printf("this is the required slope");
+}

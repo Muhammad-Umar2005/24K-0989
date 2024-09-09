@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+int PrincipalValue,RateofInterest,TimePeriod,SimpleInterest;
+printf("Enter the value of PrincipalValue,RateofInterest,TimePeriod\n");
+printf("PrincipalValue must be Rs.100 to 1,000,000\n");
+printf("RateofInterest must be 5% to 10%\n");
+printf("TimePeriod between 1 to 10 years\n");
+scanf("\n%d%d%d",&PrincipalValue,&RateofInterest,&TimePeriod);
+SimpleInterest=(PrincipalValue*RateofInterest*TimePeriod)/100;
+printf("\nSimpleInterest:%d",SimpleInterest);
+return 0;
+}

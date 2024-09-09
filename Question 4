@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+int a;
+double TFC,b,c,TC;
+printf("a=car's fuel average,b=fuel price for forward trip,c=fuel price for backward trip,TFC=total fuel consumed");
+printf("TC=total cost\n");
+printf("Enter the value of a\n");
+scanf("%d",&a);
+while(a>0){
+TFC=2*(1207/a);
+printf("TFC:%lf\n",TFC);
+b=118*(1207/a);
+printf("b:%lf\n",b);
+c=123*(1207/a);
+printf("c:%lf\n",c);
+TC=b+c;
+printf("TC:%lf\n",TC);
+return 0;
+}
+return 0;
+}
